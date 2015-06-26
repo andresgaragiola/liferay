@@ -78,4 +78,3 @@ Endpoints:
   Private-Port: 9990
 Additional-Control-Actions:
 - threaddump
-Source-Url: https://github.com/andresgaragiola/liferay/archive/master.zip
