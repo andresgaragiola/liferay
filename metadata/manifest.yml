@@ -1,0 +1,90 @@
+---
+Name: liferay 
+Cartridge-Short-Name: liferay 
+Display-Name: Liferay Server 6.2
+Description: The java based content manager.
+Version: '6.2'
+License: LGPL
+License-Url: http://www.gnu.org/copyleft/lesser.txt
+Vendor: Liferay, Inc
+Cartridge-Version: 0.0.24
+Compatible-Versions:
+Cartridge-Vendor: 
+Categories: liferay
+- service
+- web_framework
+- java
+- jboss
+- java_ee_6
+Website: http://www.liferay.com
+Help-Topics:
+  Developer Center: https://www.openshift.com/developers
+Provides:
+- jbossas-7
+- jbossas
+- jboss-as7
+- jbossas-standalone
+- jboss-as7-standalone
+Publishes:
+  publish-jboss-cluster:
+    Type: NET_TCP:jbossas-cluster-info
+  publish-jboss-remoting:
+    Type: NET_TCP:jbossas-remoting-info
+Subscribes:
+  set-env:
+    Type: ENV:*
+    Required: false
+  set-doc-url:
+    Type: STRING:urlpath
+    Required: false
+  set-jboss-cluster:
+    Type: NET_TCP:jbossas-cluster-info
+  set-jboss-remoting:
+    Type: NET_TCP:jbossas-remoting-info
+  set-generic-java:
+    Type: ENV:NET_TCP:generic-java
+Scaling:
+  Min: 1
+  Max: -1
+Endpoints:
+- Private-IP-Name: IP
+  Private-Port-Name: HTTP_PORT
+  Private-Port: 8080
+  Public-Port-Name: HTTP_PROXY_PORT
+  Protocols:
+  - http
+  - ws
+  Options:
+    primary: true
+  Mappings:
+  - Frontend: ''
+    Backend: ''
+    Options:
+      websocket: true
+  - Frontend: /health
+    Backend: ''
+    Options:
+      health: true
+- Private-IP-Name: IP
+  Private-Port-Name: CLUSTER_PORT
+  Private-Port: 7600
+  Public-Port-Name: CLUSTER_PROXY_PORT
+- Private-IP-Name: IP
+  Private-Port-Name: MESSAGING_PORT
+  Private-Port: 5445
+  Public-Port-Name: MESSAGING_PROXY_PORT
+- Private-IP-Name: IP
+  Private-Port-Name: MESSAGING_THROUGHPUT_PORT
+  Private-Port: 5455
+- Private-IP-Name: IP
+  Private-Port-Name: REMOTING_PORT
+  Private-Port: 4447
+  Public-Port-Name: REMOTING_PROXY_PORT
+- Private-IP-Name: IP
+  Private-Port-Name: MANAGEMENT_NATIVE_PORT
+  Private-Port: 9999
+- Private-IP-Name: IP
+  Private-Port-Name: MANAGEMENT_HTTP_PORT
+  Private-Port: 9990
+Additional-Control-Actions:
+- threaddump

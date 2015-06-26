@@ -1,0 +1,95 @@
+13:02:04,038 INFO  [MSC service thread 1-2][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+13:02:04,042 WARN  [MSC service thread 1-2][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+13:02:04,058 INFO  [MSC service thread 1-2][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+13:02:55,269 INFO  [MSC service thread 1-8][HotDeployEvent:145] Plugin welcome-theme requires marketplace-portlet, resources-importer-web
+13:02:55,275 INFO  [MSC service thread 1-5][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+13:02:55,271 INFO  [MSC service thread 1-4][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+13:02:55,338 INFO  [MSC service thread 1-1][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+13:02:55,273 INFO  [MSC service thread 1-7][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+13:02:55,271 INFO  [MSC service thread 1-3][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+13:02:55,532 INFO  [MSC service thread 1-8][HotDeployEvent:145] Plugin notifications-portlet requires marketplace-portlet
+13:02:55,549 INFO  [MSC service thread 1-6][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+13:03:23,609 INFO  [MSC service thread 1-2][StartupAction:96] There are no patches installed
+13:03:28,730 INFO  [MSC service thread 1-2][BaseDB:481] Database supports case sensitive queries
+13:03:30,522 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyProcessSuite
+13:03:30,524 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyProperties
+13:03:30,602 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyDB2
+13:03:30,603 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyMySQL
+13:03:30,604 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyOracle
+13:03:30,605 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifySQLServer
+13:03:30,606 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyUUID
+13:03:30,660 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyPermission
+13:03:33,866 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyGroup
+13:03:34,203 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyRole
+13:03:34,206 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyAsset
+13:03:34,368 INFO  [MSC service thread 1-2][UpgradeProcess:164] Upgrading com.liferay.portal.upgrade.util.UpgradeAssetPublisherManualEntries
+13:03:34,371 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyAuditedModel
+13:03:34,379 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyBlogs
+13:03:34,404 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyBookmarks
+13:03:34,413 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyCalendar
+13:03:34,419 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyDocumentLibrary
+13:03:34,966 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyDynamicDataMapping
+13:03:35,191 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyGroupId
+13:03:35,205 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyJournal
+13:03:35,540 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyLayout
+13:03:35,864 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyMessageBoards
+13:03:36,176 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyOrganization
+13:03:36,385 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyRegion
+13:03:36,389 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyResourcePermissions
+13:03:36,391 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyUser
+13:03:36,489 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyWiki
+13:03:36,587 INFO  [MSC service thread 1-2][VerifyProcess:66] Verifying com.liferay.portal.verify.VerifyWorkflow
+13:03:42,212 INFO  [MSC service thread 1-2][ServerDetector:166] Server supports hot deploy
+13:03:42,259 INFO  [MSC service thread 1-2][PluginPackageUtil:1013] Reading plugin package for the root context
+13:04:05,984 INFO  [MSC service thread 1-2][AutoDeployDir:116] Creating missing directory /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/deploy
+13:04:06,262 INFO  [MSC service thread 1-2][AutoDeployDir:139] Auto deploy scanner started for /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/deploy
+13:04:13,545 WARN  [MSC service thread 1-2][Encryptor:232] IBM JVM does not have com.sun.crypto.provider.SunJCE, using com.ibm.crypto.provider.IBMJCE instead
+13:18:43,495 INFO  [MSC service thread 1-5][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+13:18:43,499 WARN  [MSC service thread 1-5][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+13:18:43,514 INFO  [MSC service thread 1-5][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+13:19:19,862 INFO  [MSC service thread 1-5][StartupAction:96] There are no patches installed
+13:19:21,436 INFO  [MSC service thread 1-5][BaseDB:481] Database supports case sensitive queries
+13:19:24,906 INFO  [MSC service thread 1-5][ServerDetector:166] Server supports hot deploy
+13:19:24,961 INFO  [MSC service thread 1-5][PluginPackageUtil:1013] Reading plugin package for the root context
+13:19:44,978 INFO  [MSC service thread 1-4][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+13:19:44,982 INFO  [MSC service thread 1-8][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+13:19:45,077 INFO  [MSC service thread 1-6][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+13:19:45,078 INFO  [MSC service thread 1-1][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+13:19:45,077 INFO  [MSC service thread 1-7][HotDeployEvent:145] Plugin welcome-theme requires marketplace-portlet, resources-importer-web
+13:19:45,078 INFO  [MSC service thread 1-3][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+13:19:45,235 INFO  [MSC service thread 1-4][HotDeployEvent:145] Plugin notifications-portlet requires marketplace-portlet
+13:19:46,460 INFO  [MSC service thread 1-2][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+13:20:12,120 INFO  [MSC service thread 1-5][AutoDeployDir:139] Auto deploy scanner started for /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/deploy
+13:31:01,605 INFO  [MSC service thread 1-5][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+13:31:01,630 WARN  [MSC service thread 1-5][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+13:31:01,663 INFO  [MSC service thread 1-5][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+13:31:32,599 INFO  [MSC service thread 1-5][StartupAction:96] There are no patches installed
+13:31:34,862 INFO  [MSC service thread 1-5][BaseDB:481] Database supports case sensitive queries
+13:31:41,319 INFO  [MSC service thread 1-5][ServerDetector:166] Server supports hot deploy
+13:31:41,357 INFO  [MSC service thread 1-5][PluginPackageUtil:1013] Reading plugin package for the root context
+13:32:36,441 INFO  [MSC service thread 1-5][AutoDeployDir:139] Auto deploy scanner started for /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/deploy
+13:34:21,694 INFO  [MSC service thread 1-1][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+13:34:21,764 INFO  [MSC service thread 1-7][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+13:34:21,725 INFO  [MSC service thread 1-5][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+13:34:21,764 INFO  [MSC service thread 1-8][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+13:34:21,849 INFO  [MSC service thread 1-6][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+13:34:22,122 INFO  [MSC service thread 1-4][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+13:34:22,158 INFO  [MSC service thread 1-3][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+13:34:22,208 INFO  [MSC service thread 1-2][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+13:34:22,267 INFO  [MSC service thread 1-7][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+13:34:22,325 INFO  [MSC service thread 1-2][HotDeployEvent:145] Plugin notifications-portlet requires marketplace-portlet
+13:34:22,431 INFO  [MSC service thread 1-5][PluginPackageUtil:1016] Reading plugin package for calendar-portlet
+13:34:22,431 INFO  [MSC service thread 1-7][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+13:34:22,641 INFO  [MSC service thread 1-4][PluginPackageUtil:1016] Reading plugin package for resources-importer-web
+13:34:22,686 INFO  [MSC service thread 1-8][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+13:34:22,692 INFO  [MSC service thread 1-3][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+13:34:22,695 INFO  [MSC service thread 1-5][HotDeployEvent:145] Plugin welcome-theme requires marketplace-portlet, resources-importer-web
+13:34:22,761 INFO  [MSC service thread 1-1][PluginPackageUtil:1016] Reading plugin package for sync-web
+13:34:22,912 INFO  [MSC service thread 1-2][PluginPackageUtil:1016] Reading plugin package for notifications-portlet
+13:34:23,058 INFO  [MSC service thread 1-7][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+13:34:23,060 WARN  [MSC service thread 1-7][PluginPackageUtil:1114] Plugin package on context kaleo-web cannot be tracked because this WAR does not contain a liferay-plugin-package.xml file
+13:34:23,062 INFO  [MSC service thread 1-7][HotDeployEvent:145] Plugin welcome-theme requires marketplace-portlet, resources-importer-web
+13:34:23,063 INFO  [MSC service thread 1-6][PluginPackageUtil:1016] Reading plugin package for web-form-portlet
+13:34:23,231 INFO  [MSC service thread 1-5][PluginPackageUtil:1016] Reading plugin package for welcome-theme
+13:34:23,345 INFO  [MSC service thread 1-7][PluginPackageUtil:1016] Reading plugin package for welcome-theme
+13:34:23,347 WARN  [MSC service thread 1-7][PluginPackageUtil:1114] Plugin package on context welcome-theme cannot be tracked because this WAR does not contain a liferay-plugin-package.xml file

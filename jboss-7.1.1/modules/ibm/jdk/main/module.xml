@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+					<module xmlns="urn:jboss:module:1.1" name="ibm.jdk">
+						<dependencies>
+							<system export="true">
+								<paths>
+									<path name="com/ibm" />
+									<path name="com/ibm/crypto/provider" />
+									<path name="com/ibm/jvm" />
+									<path name="com/ibm/jvm/io" />
+									<path name="com/ibm/jvm/util" />
+									<path name="com/ibm/match" />
+									<path name="com/ibm/misc" />
+									<path name="com/ibm/net" />
+									<path name="com/ibm/nio" />
+									<path name="com/ibm/nio/ch" />
+									<path name="com/ibm/security/auth" />
+									<path name="com/ibm/security/bootstrap" />
+									<path name="com/ibm/security/auth/module" />
+									<path name="com/ibm/security/util" />
+									<path name="META-INF/services" />
+								</paths>
+							</system>
+						</dependencies>
+					</module>
+				

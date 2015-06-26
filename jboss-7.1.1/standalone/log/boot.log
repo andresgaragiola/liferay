@@ -1,0 +1,175 @@
+13:29:44,217 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+13:29:46,205 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+13:29:46,271 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+13:29:46,274 DEBUG [org.jboss.as.config] Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	com.ibm.cpu.endian = little
+	com.ibm.jcl.checkClassPath = 
+	com.ibm.oti.configuration = scar
+	com.ibm.oti.jcl.build = 20150406_242981
+	com.ibm.oti.shared.enabled = false
+	com.ibm.oti.vm.bootstrap.library.path = /usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64/compressedrefs:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64
+	com.ibm.oti.vm.library.version = 26
+	com.ibm.system.agent.path = /usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64
+	com.ibm.util.extralibs.properties = 
+	com.ibm.vm.bitmode = 64
+	com.ibm.zero.version = 2
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ibm.signalhandling.rs = false
+	ibm.signalhandling.sigchain = true
+	ibm.signalhandling.sigint = true
+	ibm.system.encoding = UTF-8
+	java.awt.fonts = 
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/jboss-modules.jar
+	java.class.version = 51.0
+	java.compiler = j9jit26
+	java.endorsed.dirs = /usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ext
+	java.fullversion = JRE 1.7.0 IBM J9 2.6 Linux amd64-64 Compressed References 20150406_242981 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR9_20150406_1443_B242981
+JIT  - tr.r11_20150401_88894
+GC   - R26_Java726_SR9_20150406_1443_B242981_CMPRSS
+J9CL - 20150406_242981
+	java.home = /usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64/compressedrefs:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = pxa6470sr9-20150417_01 (SR9)
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.util.prefs.PreferencesFactory = java.util.prefs.FileSystemPreferencesFactory
+	java.vendor = IBM Corporation
+	java.vendor.url = http://www.ibm.com/
+	java.version = 1.7.0
+	java.vm.info = JRE 1.7.0 Linux amd64-64 Compressed References 20150406_242981 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR9_20150406_1443_B242981
+JIT  - tr.r11_20150401_88894
+GC   - R26_Java726_SR9_20150406_1443_B242981_CMPRSS
+J9CL - 20150406_242981
+	java.vm.name = IBM J9 VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = IBM Corporation
+	java.vm.version = 2.6
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1
+	jboss.host.name = garagiol
+	jboss.modules.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = garagiol
+	jboss.qualified.host.name = garagiol.ibm.com
+	jboss.server.base.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone
+	jboss.server.config.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/configuration
+	jboss.server.data.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/data
+	jboss.server.default.config = standalone.xml
+	jboss.server.deploy.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/data/content
+	jboss.server.log.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/log
+	jboss.server.name = garagiol
+	jboss.server.temp.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/tmp
+	jxe.current.romimage.version = 17
+	jxe.lowest.romimage.version = 17
+	line.separator = 
+
+	logging.configuration = file:/home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/configuration/logging.properties
+	module.path = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/modules
+	org.jboss.boot.log.file = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/log/boot.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.encoding = UTF-8
+	os.name = Linux
+	os.version = 2.6.32-504.16.2.el6.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64/compressedrefs/jclSC170/vm.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/se-service.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/math.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/jlm.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmorb.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmorbapi.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmcfw.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmpkcs.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmcertpathfw.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmjgssfw.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmjssefw.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmsaslfw.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmjcefw.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmjgssprovider.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmjsseprovider2.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmcertpathprovider.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/xmldsigfw.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/xml.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ibmgpu.jar
+	sun.boot.library.path = /usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64/compressedrefs:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/jboss-modules.jar -mp /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=/home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1
+	sun.java.launcher = SUN_STANDARD
+	sun.java.launcher.pid = 27278
+	sun.jnu.encoding = UTF-8
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/bin
+	user.home = /home/garagiol
+	user.language = en
+	user.name = garagiol
+	user.timezone = GMT
+	user.variant = 
+13:29:46,302 DEBUG [org.jboss.as.config] VM Arguments: -Xoptionsfile=/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64/compressedrefs/options.default -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple -Xjcl:jclse7b_26 -Dcom.ibm.oti.vm.bootstrap.library.path=/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64/compressedrefs:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64 -Dsun.boot.library.path=/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64/compressedrefs:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64 -Djava.library.path=/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64/compressedrefs:/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/amd64:/usr/lib -Djava.home=/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre -Djava.ext.dirs=/usr/lib/jvm/java-1.7.0-ibm-1.7.0.9.0.x86_64/jre/lib/ext -Duser.dir=/home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/bin -Djava.runtime.version=pxa6470sr9-20150417_01 (SR9) -Djava.class.path=. -D[Standalone] -server -XX:+UseCompressedOops -XX:+TieredCompilation -Djava.net.preferIPv4Stack=true -Dorg.jboss.resolver.warning=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.server.default.config=standalone.xml -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.boot.log.file=/home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/log/boot.log -Dlogging.configuration=file:/home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/standalone/configuration/logging.properties -Djava.class.path=/home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/jboss-modules.jar -Dsun.java.command=/home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/jboss-modules.jar -mp /home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=/home/garagiol/Downloads/liferay/liferay-portal/liferay-portal-6.2-ce-ga4/jboss-7.1.1 -Dsun.java.launcher=SUN_STANDARD -Dsun.java.launcher.pid=27278 
+13:29:55,748 INFO  [org.xnio] XNIO Version 3.0.3.GA
+13:29:55,775 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+13:29:55,930 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+13:29:56,037 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+13:29:56,193 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+13:34:21,469 INFO  [org.jboss.as.logging] JBAS011503: Restored bootstrap log handlers
+13:34:21,695 INFO  [stdout] 13:34:21,694 INFO  [MSC service thread 1-1][HotDeployEvent:145] Plugin sync-web requires marketplace-portlet
+13:34:22,088 INFO  [stdout] 13:34:21,764 INFO  [MSC service thread 1-7][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+13:34:22,089 INFO  [stdout] 13:34:21,725 INFO  [MSC service thread 1-5][HotDeployEvent:145] Plugin calendar-portlet requires marketplace-portlet
+13:34:22,090 INFO  [stdout] 13:34:21,764 INFO  [MSC service thread 1-8][HotDeployEvent:145] Plugin opensocial-portlet requires marketplace-portlet
+13:34:22,091 INFO  [stdout] 13:34:21,849 INFO  [MSC service thread 1-6][HotDeployEvent:145] Plugin web-form-portlet requires marketplace-portlet
+13:34:22,122 INFO  [stdout] 13:34:22,122 INFO  [MSC service thread 1-4][HotDeployEvent:145] Plugin resources-importer-web requires marketplace-portlet
+13:34:22,160 INFO  [stdout] 13:34:22,158 INFO  [MSC service thread 1-3][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+13:34:22,208 INFO  [stdout] 13:34:22,208 INFO  [MSC service thread 1-2][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+13:34:22,267 INFO  [stdout] 13:34:22,267 INFO  [MSC service thread 1-7][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+13:34:22,325 INFO  [stdout] 13:34:22,325 INFO  [MSC service thread 1-2][HotDeployEvent:145] Plugin notifications-portlet requires marketplace-portlet
+13:34:22,431 INFO  [stdout] 13:34:22,431 INFO  [MSC service thread 1-5][PluginPackageUtil:1016] Reading plugin package for calendar-portlet
+13:34:22,432 INFO  [stdout] 13:34:22,431 INFO  [MSC service thread 1-7][HotDeployEvent:145] Plugin kaleo-web requires marketplace-portlet
+13:34:22,641 INFO  [stdout] 13:34:22,641 INFO  [MSC service thread 1-4][PluginPackageUtil:1016] Reading plugin package for resources-importer-web
+13:34:22,686 INFO  [stdout] 13:34:22,686 INFO  [MSC service thread 1-8][PluginPackageUtil:1016] Reading plugin package for opensocial-portlet
+13:34:22,693 INFO  [stdout] 13:34:22,692 INFO  [MSC service thread 1-3][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+13:34:22,695 INFO  [stdout] 13:34:22,695 INFO  [MSC service thread 1-5][HotDeployEvent:145] Plugin welcome-theme requires marketplace-portlet, resources-importer-web
+13:34:22,761 INFO  [stdout] 13:34:22,761 INFO  [MSC service thread 1-1][PluginPackageUtil:1016] Reading plugin package for sync-web
+13:34:22,912 INFO  [stdout] 13:34:22,912 INFO  [MSC service thread 1-2][PluginPackageUtil:1016] Reading plugin package for notifications-portlet
+13:34:23,059 INFO  [stdout] 13:34:23,058 INFO  [MSC service thread 1-7][PluginPackageUtil:1016] Reading plugin package for kaleo-web
+13:34:23,060 INFO  [stdout] 13:34:23,060 WARN  [MSC service thread 1-7][PluginPackageUtil:1114] Plugin package on context kaleo-web cannot be tracked because this WAR does not contain a liferay-plugin-package.xml file
+13:34:23,063 INFO  [stdout] 13:34:23,062 INFO  [MSC service thread 1-7][HotDeployEvent:145] Plugin welcome-theme requires marketplace-portlet, resources-importer-web
+13:34:23,066 INFO  [stdout] 13:34:23,063 INFO  [MSC service thread 1-6][PluginPackageUtil:1016] Reading plugin package for web-form-portlet
+13:34:23,231 INFO  [stdout] 13:34:23,231 INFO  [MSC service thread 1-5][PluginPackageUtil:1016] Reading plugin package for welcome-theme
+13:34:23,345 INFO  [stdout] 13:34:23,345 INFO  [MSC service thread 1-7][PluginPackageUtil:1016] Reading plugin package for welcome-theme
+13:34:23,347 INFO  [stdout] 13:34:23,347 WARN  [MSC service thread 1-7][PluginPackageUtil:1114] Plugin package on context welcome-theme cannot be tracked because this WAR does not contain a liferay-plugin-package.xml file
+13:34:23,900 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment marketplace-portlet.war in 2668ms
+13:34:24,281 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment sync-web.war in 3048ms
+13:34:24,281 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment resources-importer-web.war in 3080ms
+13:34:24,282 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment calendar-portlet.war in 3088ms
+13:34:24,288 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment welcome-theme.war in 3075ms
+13:34:24,571 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment kaleo-web.war in 3358ms
+13:34:25,129 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment opensocial-portlet.war in 3897ms
+13:34:25,347 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment web-form-portlet.war in 4151ms
+13:34:25,601 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment notifications-portlet.war in 4368ms
+13:34:26,407 INFO  [hsqldb.db.HSQLDB4CC4A05611.ENGINE] Database closed
+13:34:26,531 INFO  [org.quartz.core.QuartzScheduler] Scheduler PersistedQuartzSchedulerEngineInstance_$_NON_CLUSTERED shutting down.
+13:34:26,532 INFO  [org.quartz.core.QuartzScheduler] Scheduler PersistedQuartzSchedulerEngineInstance_$_NON_CLUSTERED paused.
+13:34:26,533 INFO  [org.quartz.core.QuartzScheduler] Scheduler PersistedQuartzSchedulerEngineInstance_$_NON_CLUSTERED shutdown complete.
+13:34:26,534 INFO  [org.quartz.core.QuartzScheduler] Scheduler MemoryQuartzSchedulerEngineInstance_$_NON_CLUSTERED shutting down.
+13:34:26,534 INFO  [org.quartz.core.QuartzScheduler] Scheduler MemoryQuartzSchedulerEngineInstance_$_NON_CLUSTERED paused.
+13:34:26,535 INFO  [org.quartz.core.QuartzScheduler] Scheduler MemoryQuartzSchedulerEngineInstance_$_NON_CLUSTERED shutdown complete.
+13:34:28,282 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/]] Closing Spring root WebApplicationContext
+13:34:28,993 INFO  [org.hibernate.impl.SessionFactoryImpl] closing
+13:34:29,006 INFO  [org.hibernate.impl.SessionFactoryImpl] closing
+13:34:29,361 INFO  [com.arjuna.ats.jbossatx] ARJUNA032018: Destroying TransactionManagerService
+13:34:29,362 INFO  [com.arjuna.ats.jbossatx] ARJUNA032014: Stopping transaction recovery manager
+13:34:29,734 INFO  [org.jboss.as.server.deployment] JBAS015877: Stopped deployment ROOT.war in 8502ms
+13:34:30,043 INFO  [org.jboss.as] JBAS015950: JBoss AS 7.1.1.Final "Brontes" stopped in 8767ms
