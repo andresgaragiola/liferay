@@ -4,9 +4,6 @@ Cartridge-Short-Name: liferay
 Display-Name: Liferay Server 6.2
 Description: The java based content manager.
 Version: '6.2'
-License: LGPL
-License-Url: http://www.gnu.org/copyleft/lesser.txt
-Vendor: Liferay, Inc
 Cartridge-Version: 0.0.24
 Compatible-Versions:
 Cartridge-Vendor: 
