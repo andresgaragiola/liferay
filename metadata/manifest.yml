@@ -1,8 +1,8 @@
 Name: liferay
 Cartridge-Short-Name: Liferay
-Display-Name: Liferay 6.2
-Version: "6.2"
-Versions: ["6.2"]
+Display-Name: Liferay
+Version: "7"
+Versions: ["7"]
 Website: https://github.com/andresgaragiola/liferay
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: andresgaragiola
@@ -11,7 +11,7 @@ Categories:
   - liferay
   - web_framework
 Provides:
-  - liferay-6.2
+  - liferay
 Scaling:
   Min: 1
   Max: -1
