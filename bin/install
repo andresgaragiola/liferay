@@ -15,7 +15,6 @@ shopt -s dotglob
 #cp -r ${OPENSHIFT_JBOSSAS_DIR}/versions/${version}/template/.openshift ${OPENSHIFT_JBOSSAS_DIR}/template
 cp ${OPENSHIFT_JBOSSAS_DIR}/standalone/configuration/standalone.xml ${OPENSHIFT_JBOSSAS_DIR}/template/.openshift/config
 
-#sed -i "s/{APP_NAME}/${OPENSHIFT_APP_NAME}/g" ${OPENSHIFT_JBOSSAS_DIR}/template/pom.xml
 
 # Create and install the initial template WAR
 #pushd $OPENSHIFT_JBOSSAS_DIR/versions/${version}/template/src/main/webapp 1> /dev/null
