@@ -1,8 +1,8 @@
 #!/bin/bash -eu
 export OPENSHIFT_JBOSSAS_DIR=$OPENSHIFT_HOMEDIR/jboss-7.1.1
-echo $OPENSHIFT_JBOSSAS_DIR > ${OPENSHIFT_HOMEDIR}env/OPENSHIFT_JBOSSAS_DIR
+#echo $OPENSHIFT_JBOSSAS_DIR > ${OPENSHIFT_HOMEDIR}env/OPENSHIFT_JBOSSAS_DIR
 export OPENSHIFT_JBOSSAS_LOG_DIR=$OPENSHIFT_HOMEDIR/app-root/logs/
-echo $OPENSHIFT_JBOSSAS_LOG_DIR > ${OPENSHIFT_HOMEDIR}env/OPENSHIFT_JBOSSAS_LOG_DIR
+#echo $OPENSHIFT_JBOSSAS_LOG_DIR > ${OPENSHIFT_HOMEDIR}env/OPENSHIFT_JBOSSAS_LOG_DIR
 echo 
 echo "Start environment variables"
 env
@@ -15,7 +15,7 @@ case "$1" in
     version="$2"
 esac
 
-mkdir -p ${OPENSHIFT_JBOSSAS_DIR}/{template,standalone/tmp,standalone/configuration,standalone/data}
+#mkdir -p ${OPENSHIFT_JBOSSAS_DIR}/{template,standalone/tmp,standalone/configuration,standalone/data}
 
 # Copy the version specific files up to jbossas directory
 #cp -r ${OPENSHIFT_JBOSSAS_DIR}/versions/${version}/standalone/configuration/* ${OPENSHIFT_JBOSSAS_DIR}/standalone/configuration
