@@ -1,4 +1,7 @@
 #!/bin/bash -eu
+echo "Start environment variables"
+env
+echo "End environment variables"
 
 case "$1" in
   -v|--version)
