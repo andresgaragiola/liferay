@@ -1,7 +1,14 @@
 #!/bin/bash -eu
+export OPENSHIFT_JBOSSAS_DIR=$OPENSHIFT_HOMEDIR/jboss-7.1.1
+echo $OPENSHIFT_JBOSSAS_DIR > $OPENSHIFT_HOMEDIR/env/OPENSHIFT_JBOSSAS_DIR
+export OPENSHIFT_JBOSSAS_LOG_DIR=$OPENSHIFT_HOMEDIR/app-root/logs/
+echo $OPENSHIFT_JBOSSAS_LOG_DIR > $OPENSHIFT_HOMEDIR/env/OPENSHIFT_JBOSSAS_LOG_DIR
+echo 
 echo "Start environment variables"
 env
 echo "End environment variables"
+
+
 
 case "$1" in
   -v|--version)
