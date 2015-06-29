@@ -8,8 +8,6 @@ case "$1" in
     version="$2"
 esac
 
-echo "$version" > ${OPENSHIFT_HOMEDIR}${OPENSHIFT_APP_NAME}/env/OPENSHIFT_JBOSSAS_VERSION"
-
 shopt -s dotglob
 #cp -r ${OPENSHIFT_JBOSSAS_DIR}/versions/${version}/template/* ${OPENSHIFT_JBOSSAS_DIR}/template
 #cp -r ${OPENSHIFT_JBOSSAS_DIR}/versions/${version}/template/.openshift ${OPENSHIFT_JBOSSAS_DIR}/template
